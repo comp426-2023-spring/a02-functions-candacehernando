@@ -22,6 +22,7 @@
   "type": "module",
   "dependencies": {
     "minimist": "^1.2.8",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.40",
     "node-fetch": "^3.3.0"
   }

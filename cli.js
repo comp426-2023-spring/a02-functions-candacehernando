@@ -21,3 +21,4 @@ Usage: galosh.js [options] -[n|s] LATITUDE -[e|w] LONGITUDE -z TIME_ZONE
     -j            Echo pretty JSON from open-meteo API and exit.');
 	exit(0);
 }
+const timezone = moment.tz.guess();
