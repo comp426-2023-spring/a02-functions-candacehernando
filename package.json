@@ -15,9 +15,14 @@
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a02-functions-candacehernando/issues"
   },
-  "homepage": "https://github.com/comp426-2023-spring/a02-functions-candacehernando#readme"
+  "homepage": "https://github.com/comp426-2023-spring/a02-functions-candacehernando#readme",
   "bin": {
     "galosh.js": "./cli.js"
   },
   "type": "module",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "moment-timezone": "^0.5.40",
+    "node-fetch": "^3.3.0"
+  }
 }
